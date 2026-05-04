@@ -6,6 +6,13 @@ Last initialised: 2026-05-04
 
 ---
 
+## Currently Working On
+
+| Ticket | Title | Site | Started | Status | Notes |
+|--------|-------|------|---------|--------|-------|
+
+---
+
 ## PR Log (WHAT 1 — AI-First Delivery)
 
 | PR | Title | Ticket | AI skill used | Start date | Merged date | Days taken | `.specs` present |
