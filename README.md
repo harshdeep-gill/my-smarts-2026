@@ -16,6 +16,7 @@ Last initialised: 2026-05-04
 | [#547](https://github.com/Travelopia/sunsail/pull/547) | [YWEB-1147](https://tuispecialist.atlassian.net/browse/YWEB-1147) | No | No | 2026-04-02 | 2026-04-08 | 6 | No |
 | [#557](https://github.com/Travelopia/sunsail/pull/557) | [YWEB-1255](https://tuispecialist.atlassian.net/browse/YWEB-1255) | No | No | 2026-04-09 | 2026-04-14 | 5 | No |
 | [#558](https://github.com/Travelopia/sunsail/pull/558) | [YWEB-1256](https://tuispecialist.atlassian.net/browse/YWEB-1256) | No | No | 2026-04-09 | 2026-04-14 | 5 | No |
+| [#544](https://github.com/Travelopia/sunsail/pull/544) | [YWEB-1193](https://tuispecialist.atlassian.net/browse/YWEB-1193) | Yes (local skills) | No | 2026-03-31 | 2026-03-31 | 0 | No |
 
 ---
 
@@ -33,6 +34,7 @@ Last initialised: 2026-05-04
 
 | Month | Site | Issue | Jira ticket | PR | Tagged "Tech Debt" |
 |-------|------|-------|-------------|----|--------------------|
+| March 2026 | Sunsail | Long-pending block architecture migration — entire block library (466 files) moved from legacy functional `index.php` to new class-based architecture | [YWEB-1193](https://tuispecialist.atlassian.net/browse/YWEB-1193) | [#544](https://github.com/Travelopia/sunsail/pull/544) | Unknown |
 
 ---
 
@@ -62,6 +64,7 @@ Last initialised: 2026-05-04
 
 | Date | Site | Problem | Fix | PR / Slack link |
 |------|------|---------|-----|-----------------|
+| 2026-03-31 | Sunsail | Long-pending tech debt — every block on legacy functional architecture, blocking future work and harder to maintain | Built two local AI skills (block refactor + architecture conversion), batched migration into 5-block reviews for safer testing, migrated all blocks, tested end-to-end, deployed with zero issues | [#544](https://github.com/Travelopia/sunsail/pull/544) |
 
 ---
 
