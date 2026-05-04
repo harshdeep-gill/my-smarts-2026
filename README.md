@@ -13,6 +13,9 @@ Last initialised: 2026-05-04
 | [#1631](https://github.com/Travelopia/leboat/pull/1631) | LBWP-2312 | Yes | No | 2026-04-16 | 2026-04-23 | 7 | Yes |
 | [#1636](https://github.com/Travelopia/leboat/pull/1636) | LBWP-2453 | Yes | Yes | 2026-04-17 | 2026-04-21 | 4 | Yes |
 | [#1658](https://github.com/Travelopia/leboat/pull/1658) | LBWP-2473 | No | No | 2026-04-27 | 2026-04-27 | 0 | No |
+| [#547](https://github.com/Travelopia/sunsail/pull/547) | [YWEB-1147](https://tuispecialist.atlassian.net/browse/YWEB-1147) | No | No | 2026-04-02 | 2026-04-08 | 6 | No |
+| [#557](https://github.com/Travelopia/sunsail/pull/557) | [YWEB-1255](https://tuispecialist.atlassian.net/browse/YWEB-1255) | No | No | 2026-04-09 | 2026-04-14 | 5 | No |
+| [#558](https://github.com/Travelopia/sunsail/pull/558) | [YWEB-1256](https://tuispecialist.atlassian.net/browse/YWEB-1256) | No | No | 2026-04-09 | 2026-04-14 | 5 | No |
 
 ---
 
@@ -66,6 +69,7 @@ Last initialised: 2026-05-04
 
 | Date | PM / stakeholder | Question | Response time | Outcome |
 |------|------------------|----------|---------------|---------|
+| 2026-04-02 | Sunsail PM | How to give itineraries their own pages with a refreshed component design while keeping editor effort to zero | Same-day | Brainstormed multiple approaches and shipped a seamless solution: slug-migration CLI ([#547](https://github.com/Travelopia/sunsail/pull/547)), new itinerary-details component for single pages ([#557](https://github.com/Travelopia/sunsail/pull/557)), Build My Quote CTA on single itinerary ([#558](https://github.com/Travelopia/sunsail/pull/558)), and existing itineraries component redesigned as accordion ([#561](https://github.com/Travelopia/sunsail/pull/561)) — no editor rework required |
 
 ---
 
