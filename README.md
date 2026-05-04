@@ -40,7 +40,7 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | Month | Site | Issue | Jira ticket | PR | Tagged "Tech Debt" |
 |-------|------|-------|-------------|----|--------------------|
-| March 2026 | Sunsail | Long-pending block architecture migration — entire block library (466 files) moved from legacy functional `index.php` to new class-based architecture | [YWEB-1193](https://tuispecialist.atlassian.net/browse/YWEB-1193) | [#544](https://github.com/Travelopia/sunsail/pull/544) | Unknown |
+| March 2026 | Sunsail | Long-pending block architecture migration — entire block library (466 files) moved from legacy functional `index.php` to new class-based architecture. Approach: built two local AI skills (one for block refactor, one for architecture conversion), batched migration into 5-block reviews for safer testing, migrated and tested every block end-to-end, deployed with zero issues. | [YWEB-1193](https://tuispecialist.atlassian.net/browse/YWEB-1193) | [#544](https://github.com/Travelopia/sunsail/pull/544) | Unknown |
 
 ---
 
@@ -70,7 +70,6 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | Date | Site | Problem | Fix | PR / Slack link |
 |------|------|---------|-----|-----------------|
-| 2026-03-31 | Sunsail | Long-pending tech debt — every block on legacy functional architecture, blocking future work and harder to maintain | Built two local AI skills (block refactor + architecture conversion), batched migration into 5-block reviews for safer testing, migrated all blocks, tested end-to-end, deployed with zero issues | [#544](https://github.com/Travelopia/sunsail/pull/544) |
 
 ---
 
