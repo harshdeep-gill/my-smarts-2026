@@ -16,16 +16,13 @@ Last initialised: 2026-05-04
 
 ---
 
-## PR Log (WHAT 1 — AI-First Delivery)
+## Standout PRs
 
-| PR | Title | Ticket | AI skill used | Start date | Merged date | Days taken | `.specs` present |
-|----|-------|--------|---------------|------------|-------------|------------|------------------|
-| [#1631](https://github.com/Travelopia/leboat/pull/1631), [#1658](https://github.com/Travelopia/leboat/pull/1658) | Search experience (+ follow-up fixes) | LBWP-2312 / LBWP-2473 | Yes / No | 2026-04-16 | 2026-04-27 | 11 | Yes / No |
-| [#1636](https://github.com/Travelopia/leboat/pull/1636) | Boat and bases API | LBWP-2453 | Yes | 2026-04-17 | 2026-04-21 | 4 | Yes |
-| [#547](https://github.com/Travelopia/sunsail/pull/547) | Script to migrate old slug | [YWEB-1147](https://tuispecialist.atlassian.net/browse/YWEB-1147) | No | 2026-04-02 | 2026-04-08 | 6 | No |
-| [#557](https://github.com/Travelopia/sunsail/pull/557) | Add itinerary details component for individual pages | [YWEB-1255](https://tuispecialist.atlassian.net/browse/YWEB-1255) | No | 2026-04-09 | 2026-04-14 | 5 | No |
-| [#558](https://github.com/Travelopia/sunsail/pull/558) | Add quote CTA on itinerary pages | [YWEB-1256](https://tuispecialist.atlassian.net/browse/YWEB-1256) | No | 2026-04-09 | 2026-04-14 | 5 | No |
-| [#544](https://github.com/Travelopia/sunsail/pull/544) | New block architecture | [YWEB-1193](https://tuispecialist.atlassian.net/browse/YWEB-1193) | Yes (local skills) | 2026-03-31 | 2026-03-31 | 0 | No |
+PRs that go beyond routine delivery — large refactors, novel approaches, work that unblocked others, or work shipped significantly faster than expected. Routine WHAT 1 (AI-First) compliance is assumed for every PR; this section is only for the exceptions worth surfacing.
+
+| PR | Title | Site | Why standout | Merged date |
+|----|-------|------|--------------|-------------|
+| [#544](https://github.com/Travelopia/sunsail/pull/544) | New block architecture | Sunsail | Migrated entire block library (466 files) from legacy functional architecture to new class-based architecture in one go. Built two local AI skills to drive the work, batched migration into 5-block reviews for safer testing, deployed with zero issues. Long-pending tech debt resolved. | 2026-03-31 |
 
 ---
 
