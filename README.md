@@ -22,7 +22,7 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | PR | Title | Site | Why standout | Merged date |
 |----|-------|------|--------------|-------------|
-| [#544](https://github.com/Travelopia/sunsail/pull/544) | New block architecture | Sunsail | Migrated entire block library (466 files) from legacy functional architecture to new class-based architecture in one go. Built two local AI skills to drive the work, batched migration into 5-block reviews for safer testing, deployed with zero issues. Long-pending tech debt resolved. | 2026-03-31 |
+| [#1631](https://github.com/Travelopia/leboat/pull/1631), [#1658](https://github.com/Travelopia/leboat/pull/1658) | Search experience (+ follow-up fixes) | Le Boat | New search experience for Le Boat — significant feature work spanning LBWP-2312 and the follow-up fixes in LBWP-2473. Driven with AI skills end-to-end (`.specs` present on the main PR). | 2026-04-27 |
 
 ---
 
