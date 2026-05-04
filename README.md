@@ -11,6 +11,7 @@ Last initialised: 2026-05-04
 | PR | Ticket | AI skill used | Tests included | Start date | Merged date | Days taken | `.specs` present |
 |----|--------|---------------|----------------|------------|-------------|------------|------------------|
 | [#1631](https://github.com/Travelopia/leboat/pull/1631) | LBWP-2312 | Yes | No | 2026-04-16 | 2026-04-23 | 7 | Yes |
+| [#1658](https://github.com/Travelopia/leboat/pull/1658) | LBWP-2473 | No | No | 2026-04-27 | 2026-04-27 | 0 | No |
 
 ---
 
