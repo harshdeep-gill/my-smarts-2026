@@ -47,6 +47,7 @@ Last initialised: 2026-05-04
 
 | Month | Title / topic | Format | Posted in #wordpress | Link |
 |-------|---------------|--------|----------------------|------|
+| May 2026 | Axe-core + WCAG 2.1 AA accessibility CLI workflow for Blade components | Async video (Loom, 2 parts) + Slack post | Yes (#wp-engineers) | [Part 1](https://www.loom.com/share/2f1f2dcda71643c9a9187e75592b3871) · [Part 2](https://www.loom.com/share/79b9c567ae4440faa12d8322144ca5b8) |
 
 ---
 
