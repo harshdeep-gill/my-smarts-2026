@@ -10,6 +10,7 @@ Last initialised: 2026-05-04
 
 | Ticket | Title | Site | Started | Status | Notes |
 |--------|-------|------|---------|--------|-------|
+| [Skill PR #32](https://github.com/Travelopia/wordpress-team-ai-skills/pull/32) | Add a11y skill | wordpress-team-ai-skills | 2026-04-23 | In progress (draft PR) | Completing accessibility course (~50% done) and updating the skill in parallel. Reference notes: [Google Doc](https://docs.google.com/document/d/1xI8efpsa15WLlZwq3vQ_EHSTbosaNjdcLDq3JngdVgc/edit?usp=sharing) |
 
 ---
 
