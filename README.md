@@ -17,8 +17,11 @@ Last initialised: 2026-05-04
 
 ## Health Check Quick-Fixes (WHAT 2 — Phase 1)
 
-| Fortnight | Site | Issue | PR | Slack post | Date resolved | Within 5 days |
-|-----------|------|-------|----|------------|---------------|---------------|
+| Fortnight | Site | Issue | Jira ticket | PR | Slack post | Date resolved | Within 5 days |
+|-----------|------|-------|-------------|----|------------|---------------|---------------|
+| 13–26 Apr 2026 | Moorings Yacht Ownership | Backend error fix | [YWEB-1266](https://tuispecialist.atlassian.net/browse/YWEB-1266) | [#433](https://github.com/Travelopia/mooringsyachtownership/pull/433) | No | 2026-04-14 | — |
+| 13–26 Apr 2026 | Moorings Yacht Ownership | Frontend error fix | [YWEB-1262](https://tuispecialist.atlassian.net/browse/YWEB-1262) | [#432](https://github.com/Travelopia/mooringsyachtownership/pull/432) | No | 2026-04-14 | — |
+| 13–26 Apr 2026 | Sunsail Yacht Ownership | Frontend error fix | [YWEB-1267](https://tuispecialist.atlassian.net/browse/YWEB-1267) | [#164](https://github.com/Travelopia/sunsailyachtownership/pull/164) | No | 2026-04-23 | — |
 
 ---
 
