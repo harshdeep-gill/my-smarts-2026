@@ -19,9 +19,8 @@ Last initialised: 2026-05-04
 
 | PR | Title | Ticket | AI skill used | Start date | Merged date | Days taken | `.specs` present |
 |----|-------|--------|---------------|------------|-------------|------------|------------------|
-| [#1631](https://github.com/Travelopia/leboat/pull/1631) | Search experience | LBWP-2312 | Yes | 2026-04-16 | 2026-04-23 | 7 | Yes |
+| [#1631](https://github.com/Travelopia/leboat/pull/1631), [#1658](https://github.com/Travelopia/leboat/pull/1658) | Search experience (+ follow-up fixes) | LBWP-2312 / LBWP-2473 | Yes / No | 2026-04-16 | 2026-04-27 | 11 | Yes / No |
 | [#1636](https://github.com/Travelopia/leboat/pull/1636) | Boat and bases API | LBWP-2453 | Yes | 2026-04-17 | 2026-04-21 | 4 | Yes |
-| [#1658](https://github.com/Travelopia/leboat/pull/1658) | Search experience fixes | LBWP-2473 | No | 2026-04-27 | 2026-04-27 | 0 | No |
 | [#547](https://github.com/Travelopia/sunsail/pull/547) | Script to migrate old slug | [YWEB-1147](https://tuispecialist.atlassian.net/browse/YWEB-1147) | No | 2026-04-02 | 2026-04-08 | 6 | No |
 | [#557](https://github.com/Travelopia/sunsail/pull/557) | Add itinerary details component for individual pages | [YWEB-1255](https://tuispecialist.atlassian.net/browse/YWEB-1255) | No | 2026-04-09 | 2026-04-14 | 5 | No |
 | [#558](https://github.com/Travelopia/sunsail/pull/558) | Add quote CTA on itinerary pages | [YWEB-1256](https://tuispecialist.atlassian.net/browse/YWEB-1256) | No | 2026-04-09 | 2026-04-14 | 5 | No |
