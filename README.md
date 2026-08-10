@@ -48,6 +48,7 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | PR | Type | Date submitted | Date merged | Phase |
 |----|------|----------------|-------------|-------|
+| [helix-skills #13](https://github.com/Travelopia/helix-skills/pull/13) | Skill extension + two new *integrated* skills — `helix-a11y` (foundation enforcement gate, co-loaded with every Helix build) and `helix-a11y-interactions` (post-build, detection-gated interaction questionnaire for the design-dependent "it depends" forks). Before this, Helix only verified a11y *after* code existed; there was no planning-time enforcement. Wired into the `helix` router pairing table and atomic-load rule, plus a path-scoped `PreToolUse` hook (`check-a11y-load.sh`) as a write-time backstop so a11y can't be silently skipped — explorations/wireframes stay permissive structurally rather than by special-casing. Also extended `helix-component` / `helix-compose-layout` / `helix-exploration-promote`, expanded `docs/rules.md` into a 22-row enforceable Tier 1+2 foundation checklist with WCAG SC citations, and added the `docs/accessibility.md` steering doc (project bindings, 15-item trap list, per-pattern Helix deviations). Deliberately carries only the *delta* Claude can't infer — the KB is not shipped wholesale. 12 files, +406/−34; hook test suite 20/20. **Repo note:** this landed in `helix-skills`, not `wordpress-team-ai-skills`. | 2026-06-25 | 2026-07-23 | Phase 2 |
 | [#66](https://github.com/Travelopia/wordpress-team-ai-skills/pull/66) | Skill extension — new `travelopia-wp-a11y` + `travelopia-wp-a11y-audit` skills (25 pattern references, WCAG 2.2 AA). Incorporates sub-task PRs [#65](https://github.com/Travelopia/wordpress-team-ai-skills/pull/65) (carousel a11y) and [#63](https://github.com/Travelopia/wordpress-team-ai-skills/pull/63) (forms a11y), merged into main via this PR. Supersedes the earlier draft in PR #32. | 2026-06-02 | 2026-06-03 | Phase 1 |
 | [#60](https://github.com/Travelopia/wordpress-team-ai-skills/pull/60) | New skill — `travelopia-wp-jest` (Jest unit-test patterns), wired into the `travelopia-wp` router and set as "Always load" in `travelopia-wp-web-component`, `travelopia-wp-block`, and `travelopia-wp-blade-component` | 2026-05-29 | 2026-06-02 | Phase 1 |
 
@@ -95,7 +96,7 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 - [ ] Ship significantly faster than the 2x target
 - [ ] Proactively find and fix problems nobody else noticed
 - [ ] Async demos so good that other teams reference them
-- [ ] Multiple meaningful AI skill improvements (3+)
+- [x] Multiple meaningful AI skill improvements (3+) — `wordpress-team-ai-skills` [#60](https://github.com/Travelopia/wordpress-team-ai-skills/pull/60) (jest skill), [#66](https://github.com/Travelopia/wordpress-team-ai-skills/pull/66) (a11y + a11y-audit skills), `helix-skills` [#13](https://github.com/Travelopia/helix-skills/pull/13) (a11y foundation gate + interaction questionnaire) — all merged
 - [ ] PMs specifically call out communication as exceptional
 - [ ] Mentor other engineers on AI skills without being asked
 - [ ] Contribute to WordPress ecosystem (core, plugins, Trac) and raise Travelopia's profile
