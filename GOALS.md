@@ -12,18 +12,13 @@ Counts are derived only from entries present in `README.md`. Anything with no lo
 
 | # | Objective | Phase | Target | Done | Left | Status |
 |---|-----------|-------|--------|------|------|--------|
-| WHAT 1.1 | AI skill usage on every PR (`.specs` present) | P1 + P2 | 100% of PRs | — | — | ⚠️ At risk — 1 known gap ([PR #156](https://github.com/Travelopia/wordpress-packages/pull/156), no `.specs`) |
 | WHAT 1.2 | Automated test coverage on every PR | P1 + P2 | 100% of PRs | — | — | ✅ On track — no QA rejections logged |
-| WHAT 1.3 | PR turnaround 1.5x faster vs April baseline | P1 | 1.5x | — | — | ⛔ Not measured — no April baseline recorded |
-| WHAT 1.4 | PR turnaround 2x faster vs April baseline | P2 | 2x | — | — | ⛔ Not measured — no baseline recorded |
-| WHAT 1.5 | Feasibility assessments within 4 hours | P2 | Standard requests | — | — | ⛔ Not measured — no PM feedback logged |
 | WHAT 1.6 | Zero QA rejections for missing tests | P2 | 0 rejections | — | — | ✅ On track — none logged |
 | WHAT 2.1 | Health check quick-fixes, 2 per fortnight | P1 | 12 (6 fortnights) | 3 | 9 | ❌ Behind — only the 13–26 Apr fortnight covered |
 | WHAT 2.2 | Slack summary posted when quick-fix PR raised | P1 | 3 of 3 fixes | 0 | 3 | ❌ Missed — all three logged as "No" |
 | WHAT 2.3 | No repeat quick-fix across consecutive health checks | P1 | 0 repeats | — | — | ✅ No repeats logged |
 | WHAT 2.4 | Tech debt items resolved, 5 per month | P2 | 15 (Jul–Sep) | 0 | 15 | ❌ Behind — only pre-phase item logged (Mar 2026) |
 | WHAT 2.5 | Cross-brand initiative completed | P2 | 1 | 0 | 1 | 🟡 In flight — [PR #156](https://github.com/Travelopia/wordpress-packages/pull/156) is network-wide, still in review |
-| WHAT 2.6 | 30% reduction in group tech debt backlog | P2 | 30% by 30 Sep | — | — | ⛔ Not measured — no backlog baseline recorded |
 | WHAT 3.1 | Merged contributions to AI Skills package | P1 | 1 | 2 | 0 | ✅ Exceeded — [#60](https://github.com/Travelopia/wordpress-team-ai-skills/pull/60), [#66](https://github.com/Travelopia/wordpress-team-ai-skills/pull/66) |
 | WHAT 3.2 | Learning shared with team, 1 per month | P1 | 3 (Apr–Jun) | 1 | 2 | ❌ Behind — May only |
 | WHAT 3.3 | Further merged AI Skills contributions | P2 | 2 | 1 | 1 | 🟡 In progress — [helix-skills #13](https://github.com/Travelopia/helix-skills/pull/13) |
@@ -38,14 +33,13 @@ Counts are derived only from entries present in `README.md`. Anything with no lo
 | HOW 2.2 | Zero untested code reaching QA | FY26 | 0 | — | — | ✅ On track |
 | HOW 2.3 | Explore 2+ AI approaches before "not possible" | FY26 | Every case | — | — | ✅ Evidenced — `tp-slider` unblock proposals, Sunsail itineraries |
 
-**Countable totals:** 10 done · 39 remaining across the 13 objectives with hard numeric targets. 8 objectives are qualitative/ongoing and 5 cannot be counted without a baseline.
+**Countable totals:** 10 done · 39 remaining across the 11 objectives with hard numeric targets. The remaining 9 are qualitative or ongoing.
 
 ### Immediate priorities
 
 1. **WHAT 2.4** — 15 tech debt items due Jul–Sep, none logged. Highest-volume gap.
 2. **HOW 1.1 / WHAT 3.2** — 5 demos short of the September target; one per month recovers it only if Aug and Sep both ship, so a catch-up is needed.
-3. **WHAT 1.3 / 1.4 / 2.6** — establish the April PR-turnaround baseline and the tech debt backlog baseline, otherwise these cannot be evidenced at review.
-4. **WHAT 3.5** — deep dive not started; one month of runway left.
+3. **WHAT 3.5** — deep dive not started; one month of runway left.
 
 ---
 
