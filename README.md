@@ -50,6 +50,7 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | Repo | PR | Description | Date merged |
 |------|----|-------------|-------------|
+| wordpress-packages | [#139](https://github.com/Travelopia/wordpress-packages/pull/139) | **WP-237 — user role based permalinks menu visibility:** fixed Permalinks menu visibility based on user role in the shared WordPress package used across all our projects, extending the fix across brands through the common package. | 2026-02-04 |
 
 ---
 
