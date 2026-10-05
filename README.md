@@ -67,6 +67,8 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | Date | Site | Problem | Fix | PR / Slack link |
 |------|------|---------|-----|-----------------|
+| 2026-08-07 | Moorings Yacht Ownership; Sunsail Yacht Ownership | WordPress update notification received for version 7.0.3 | Proactively applied the WordPress 7.0.3 update on both sites as soon as the notification was received. | [Moorings Yacht Ownership #459](https://github.com/Travelopia/mooringsyachtownership/pull/459) · [Sunsail Yacht Ownership #194](https://github.com/Travelopia/sunsailyachtownership/pull/194) |
+| 2026-08-13 | Moorings Yacht Ownership; Sunsail Yacht Ownership | WordPress update notification received for version 7.0.4 | Proactively applied the WordPress 7.0.4 update on both sites as soon as the notification was received. | [Moorings Yacht Ownership #463](https://github.com/Travelopia/mooringsyachtownership/pull/463) · [Sunsail Yacht Ownership #196](https://github.com/Travelopia/sunsailyachtownership/pull/196) |
 
 ---
 
