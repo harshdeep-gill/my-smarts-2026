@@ -14,6 +14,7 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 |----|-------|------|--------------|-------------|
 | [#1631](https://github.com/Travelopia/leboat/pull/1631), [#1658](https://github.com/Travelopia/leboat/pull/1658) | Search experience (+ follow-up fixes) | Le Boat | New search experience for Le Boat — significant feature work spanning LBWP-2312 and the follow-up fixes in LBWP-2473. Driven with AI skills end-to-end (`.specs` present on the main PR). | 2026-04-27 |
 | [#867](https://github.com/Travelopia/moorings/pull/867), [#894](https://github.com/Travelopia/moorings/pull/894) | Google Analytics ID submission across HubSpot forms | Moorings; adopted by other brands including Exodus | Developed reusable approaches to reliably submit Google Analytics IDs to HubSpot across form types, including CTA-based forms (YWEB-816) and forms built with the new HubSpot editor (YWEB-863). Adopted by other brands, including Exodus, extending the impact beyond Moorings. Reported to remain robust in production as of October 2026. | #867: 2025-09-12; #894: 2025-10-24 |
+| — | Server-based A/B testing enablement | Moorings; supported TCS | Enabled server-based A/B testing on Moorings and helped other brands, including TCS, enable the same capability, extending the impact through support across brands. | — |
 
 ---
 
