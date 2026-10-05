@@ -55,8 +55,8 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 | Month | Title / topic | Format | Posted in #wordpress | Link |
 |-------|---------------|--------|----------------------|------|
-| May 2026 | Axe-core + WCAG 2.1 AA accessibility CLI workflow for Blade components | Async video (Loom, 2 parts) + Slack post | Yes (#wp-engineers) | [Part 1](https://www.loom.com/share/2f1f2dcda71643c9a9187e75592b3871) · [Part 2](https://www.loom.com/share/79b9c567ae4440faa12d8322144ca5b8) |
-| June 2026 | Basic tutorial for MacBook VoiceOver | Async video (Loom) + Slack post | Yes (#wp-engineers) | [Watch tutorial](https://www.loom.com/share/7b784368423e4211ae8464aad2836145) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1780288270022289?thread_ts=1779057517.046569&cid=C05FXSGF6AU) |
+| May 2026 | Axe-core + WCAG 2.1 AA accessibility CLI workflow for Blade components | Async video (Loom, 2 parts) + Slack post | Yes | [Part 1](https://www.loom.com/share/2f1f2dcda71643c9a9187e75592b3871) · [Part 2](https://www.loom.com/share/79b9c567ae4440faa12d8322144ca5b8) |
+| June 2026 | Basic tutorial for MacBook VoiceOver | Async video (Loom) + Slack post | Yes | [Watch tutorial](https://www.loom.com/share/7b784368423e4211ae8464aad2836145) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1780288270022289?thread_ts=1779057517.046569&cid=C05FXSGF6AU) |
 
 ---
 
