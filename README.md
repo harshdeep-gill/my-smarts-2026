@@ -6,6 +6,19 @@ Last initialised: 2026-05-04
 
 ---
 
+## Async Demos / Learnings (WHAT 3 / HOW 1)
+
+| Month | Title / topic | Format | Posted in #wordpress | Link |
+|-------|---------------|--------|----------------------|------|
+| March 2026 | **Recent Claude Code learnings that instantly improved my dev workflow** — 10 practical tips: `/init`, context files (`CLAUDE.md`, `CLAUDE.local.md`, `~/.claude/CLAUDE.md`), terminal shortcuts, thinking levels with Plan Mode, `/compact` and `/clear`, redirecting Claude with `Esc` and `#` memories, Claude as a Git assistant, custom commands in `.claude/commands/`, Playwright MCP integration, and the GitHub app integration. | Written post (Slack thread) | No — posted in a separate channel | [Slack thread](https://travelopia-it.slack.com/archives/C0AFLNZ2G7K/p1772772652269949) |
+| May 2026 | **axe-core + WCAG 2.1 AA accessibility CLI workflow for Blade components** — combines axe-core scanning (the same engine as Axe DevTools) with an accessibility skill to detect and fix issues automatically. Launches a headless browser against the local WordPress site, scopes the scan to the target component, performs a 13-rule source-code accessibility review, applies pattern-specific rules for carousels, modals, accordions, tabs, forms, and navigation, and fixes issues directly in Blade/JS/SCSS files. | Async video (Loom, 2 parts) + workflow document + Slack post | Yes | [Part 1](https://www.loom.com/share/2f1f2dcda71643c9a9187e75592b3871) · [Part 2](https://www.loom.com/share/79b9c567ae4440faa12d8322144ca5b8) · [Detailed workflow document](https://docs.google.com/document/d/1gpLlGZUqOIiGbe0x1DtlFgAkkgwZqznSKPF_NBqKr8U/edit?usp=sharing) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1775798292256629) |
+| May 2026 | **chrome-devtools-mcp** — gives Claude Code direct access to Chrome DevTools from the terminal to inspect pages, debug, and profile | Async video (Loom) + Slack post | Yes | [Watch demo](https://www.loom.com/share/a9e28e2d15f54c70a78e82d2bce244e9) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1779770989487769) |
+| June 2026 | Basic tutorial for MacBook VoiceOver | Async video (Loom) + Slack post | Yes | [Watch tutorial](https://www.loom.com/share/7b784368423e4211ae8464aad2836145) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1780288270022289?thread_ts=1779057517.046569&cid=C05FXSGF6AU) |
+| June 2026 | **Accessibility knowledge base and designer guidelines** — created a shared accessibility reference for engineers and designers, plus a webpage distilling the *Practical Accessibility* course from a design viewpoint to help teams factor accessibility into the design phase. Shared the full notes as a reference that can also be supplied to Claude for accessibility questions. | Knowledge base + designer guideline webpage + Slack post | Shared on Slack | [Knowledge base](https://github.com/harshdeepgill/a11y-notes) · [Full notes](https://github.com/harshdeepgill/a11y-notes/blob/main/NOTES.md) · [Designer guidelines](https://website-delta-rose-12.vercel.app/) · [Slack discussion](https://travelopia-it.slack.com/archives/C0B2PPCNB5H/p1781668052831269) |
+| — | **Practical Accessibility course completed** — completed the course to strengthen accessibility knowledge and contribute to the team’s accessibility decisions. | Course | — | [Practical Accessibility](https://practical-accessibility.today) |
+
+---
+
 ## Standout PRs
 
 PRs that go beyond routine delivery — large refactors, novel approaches, work that unblocked others, or work shipped significantly faster than expected. Routine WHAT 1 (AI-First) compliance is assumed for every PR; this section is only for the exceptions worth surfacing.
@@ -55,25 +68,13 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 
 ---
 
-## Async Demos / Learnings (WHAT 3 / HOW 1)
-
-| Month | Title / topic | Format | Posted in #wordpress | Link |
-|-------|---------------|--------|----------------------|------|
-| March 2026 | **Recent Claude Code learnings that instantly improved my dev workflow** — 10 practical tips: `/init`, context files (`CLAUDE.md`, `CLAUDE.local.md`, `~/.claude/CLAUDE.md`), terminal shortcuts, thinking levels with Plan Mode, `/compact` and `/clear`, redirecting Claude with `Esc` and `#` memories, Claude as a Git assistant, custom commands in `.claude/commands/`, Playwright MCP integration, and the GitHub app integration. | Written post (Slack thread) | No — posted in a separate channel | [Slack thread](https://travelopia-it.slack.com/archives/C0AFLNZ2G7K/p1772772652269949) |
-| May 2026 | **axe-core + WCAG 2.1 AA accessibility CLI workflow for Blade components** — combines axe-core scanning (the same engine as Axe DevTools) with an accessibility skill to detect and fix issues automatically. Launches a headless browser against the local WordPress site, scopes the scan to the target component, performs a 13-rule source-code accessibility review, applies pattern-specific rules for carousels, modals, accordions, tabs, forms, and navigation, and fixes issues directly in Blade/JS/SCSS files. | Async video (Loom, 2 parts) + workflow document + Slack post | Yes | [Part 1](https://www.loom.com/share/2f1f2dcda71643c9a9187e75592b3871) · [Part 2](https://www.loom.com/share/79b9c567ae4440faa12d8322144ca5b8) · [Detailed workflow document](https://docs.google.com/document/d/1gpLlGZUqOIiGbe0x1DtlFgAkkgwZqznSKPF_NBqKr8U/edit?usp=sharing) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1775798292256629) |
-| May 2026 | **chrome-devtools-mcp** — gives Claude Code direct access to Chrome DevTools from the terminal to inspect pages, debug, and profile | Async video (Loom) + Slack post | Yes | [Watch demo](https://www.loom.com/share/a9e28e2d15f54c70a78e82d2bce244e9) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1779770989487769) |
-| June 2026 | Basic tutorial for MacBook VoiceOver | Async video (Loom) + Slack post | Yes | [Watch tutorial](https://www.loom.com/share/7b784368423e4211ae8464aad2836145) · [Slack discussion](https://travelopia-it.slack.com/archives/C05FXSGF6AU/p1780288270022289?thread_ts=1779057517.046569&cid=C05FXSGF6AU) |
-| June 2026 | **Accessibility knowledge base and designer guidelines** — created a shared accessibility reference for engineers and designers, plus a webpage distilling the *Practical Accessibility* course from a design viewpoint to help teams factor accessibility into the design phase. Shared the full notes as a reference that can also be supplied to Claude for accessibility questions. | Knowledge base + designer guideline webpage + Slack post | Shared on Slack | [Knowledge base](https://github.com/harshdeepgill/a11y-notes) · [Full notes](https://github.com/harshdeepgill/a11y-notes/blob/main/NOTES.md) · [Designer guidelines](https://website-delta-rose-12.vercel.app/) · [Slack discussion](https://travelopia-it.slack.com/archives/C0B2PPCNB5H/p1781668052831269) |
-| — | **Practical Accessibility course completed** — completed the course to strengthen accessibility knowledge and contribute to the team’s accessibility decisions. | Course | — | [Practical Accessibility](https://practical-accessibility.today) |
-
----
-
 ## Proactive Fixes (HOW 2)
 
 | Date | Site | Problem | Fix | PR / Slack link |
 |------|------|---------|-----|-----------------|
 | 2026-08-07 | Moorings Yacht Ownership; Sunsail Yacht Ownership | WordPress update notification received for version 7.0.3 | Proactively applied the WordPress 7.0.3 update on both sites as soon as the notification was received. | [Moorings Yacht Ownership #459](https://github.com/Travelopia/mooringsyachtownership/pull/459) · [Sunsail Yacht Ownership #194](https://github.com/Travelopia/sunsailyachtownership/pull/194) |
 | 2026-08-13 | Moorings Yacht Ownership; Sunsail Yacht Ownership | WordPress update notification received for version 7.0.4 | Proactively applied the WordPress 7.0.4 update on both sites as soon as the notification was received. | [Moorings Yacht Ownership #463](https://github.com/Travelopia/mooringsyachtownership/pull/463) · [Sunsail Yacht Ownership #196](https://github.com/Travelopia/sunsailyachtownership/pull/196) |
+| 2026-10-07 | Sunsail; Moorings; Moorings Yacht Ownership; Sunsail Yacht Ownership | WordPress update notification received for version 7.1.3 | Proactively applied the WordPress 7.1.3 update on all four sites as soon as the notification was received. | [Sunsail #650](https://github.com/Travelopia/sunsail/pull/650) · [Moorings #1159](https://github.com/Travelopia/moorings/pull/1159) · [Moorings Yacht Ownership #489](https://github.com/Travelopia/mooringsyachtownership/pull/489) · [Sunsail Yacht Ownership #223](https://github.com/Travelopia/sunsailyachtownership/pull/223) |
 
 ---
 
@@ -82,13 +83,6 @@ PRs that go beyond routine delivery — large refactors, novel approaches, work 
 | Date | PM / stakeholder | Question | Response time | Outcome |
 |------|------------------|----------|---------------|---------|
 | 2026-04-02 | Sunsail PM | How to give itineraries their own pages with a refreshed component design while keeping editor effort to zero | Same-day | Brainstormed multiple approaches and shipped a seamless solution: slug-migration CLI ([#547](https://github.com/Travelopia/sunsail/pull/547)), new itinerary-details component for single pages ([#557](https://github.com/Travelopia/sunsail/pull/557)), Build My Quote CTA on single itinerary ([#558](https://github.com/Travelopia/sunsail/pull/558)), and existing itineraries component redesigned as accordion ([#561](https://github.com/Travelopia/sunsail/pull/561)) — no editor rework required |
-
----
-
-## Escalations (HOW 1)
-
-| Date | Issue | Why escalated | Resolution |
-|------|-------|---------------|------------|
 
 ---
 
